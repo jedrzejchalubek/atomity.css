@@ -1,0 +1,15 @@
+/**
+ * Iterates over positive and negative iterators.
+ *
+ * @since 1.0.0
+ *
+ * @prop {Mixin} block - Anonymous mixin block.
+ * @prop {Boolean} negative - Iterate over negative iterators?
+ */
+iterate(block, negative = true)
+    for i in iterators.positive
+        block(i)
+
+    if negative
+        for i in iterators.negative
+            block(i)

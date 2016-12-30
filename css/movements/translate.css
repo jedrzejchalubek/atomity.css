@@ -1,0 +1,216 @@
+/**
+ * Generates directional, static unitary translate classes,
+ * like: `.trf-tx1 { transform: translateX(1rem); }`.
+ */
+.trf-tx0 {
+  -ms-transform: translateX(0);
+      transform: translateX(0);
+}
+.trf-tx1 {
+  -ms-transform: translateX(1rem);
+      transform: translateX(1rem);
+}
+.trf-tx2 {
+  -ms-transform: translateX(2rem);
+      transform: translateX(2rem);
+}
+.trf-tx3 {
+  -ms-transform: translateX(3rem);
+      transform: translateX(3rem);
+}
+.trf-tx4 {
+  -ms-transform: translateX(4rem);
+      transform: translateX(4rem);
+}
+.trf-tx5 {
+  -ms-transform: translateX(5rem);
+      transform: translateX(5rem);
+}
+.trf-tx6 {
+  -ms-transform: translateX(6rem);
+      transform: translateX(6rem);
+}
+.trf-tx7 {
+  -ms-transform: translateX(7rem);
+      transform: translateX(7rem);
+}
+.trf-tx8 {
+  -ms-transform: translateX(8rem);
+      transform: translateX(8rem);
+}
+.trf-tx-1 {
+  -ms-transform: translateX(-1rem);
+      transform: translateX(-1rem);
+}
+.trf-tx-2 {
+  -ms-transform: translateX(-2rem);
+      transform: translateX(-2rem);
+}
+.trf-tx-3 {
+  -ms-transform: translateX(-3rem);
+      transform: translateX(-3rem);
+}
+.trf-tx-4 {
+  -ms-transform: translateX(-4rem);
+      transform: translateX(-4rem);
+}
+.trf-tx-5 {
+  -ms-transform: translateX(-5rem);
+      transform: translateX(-5rem);
+}
+.trf-tx-6 {
+  -ms-transform: translateX(-6rem);
+      transform: translateX(-6rem);
+}
+.trf-tx-7 {
+  -ms-transform: translateX(-7rem);
+      transform: translateX(-7rem);
+}
+.trf-tx-8 {
+  -ms-transform: translateX(-8rem);
+      transform: translateX(-8rem);
+}
+.trf-ty0 {
+  -ms-transform: translateY(0);
+      transform: translateY(0);
+}
+.trf-ty1 {
+  -ms-transform: translateY(1rem);
+      transform: translateY(1rem);
+}
+.trf-ty2 {
+  -ms-transform: translateY(2rem);
+      transform: translateY(2rem);
+}
+.trf-ty3 {
+  -ms-transform: translateY(3rem);
+      transform: translateY(3rem);
+}
+.trf-ty4 {
+  -ms-transform: translateY(4rem);
+      transform: translateY(4rem);
+}
+.trf-ty5 {
+  -ms-transform: translateY(5rem);
+      transform: translateY(5rem);
+}
+.trf-ty6 {
+  -ms-transform: translateY(6rem);
+      transform: translateY(6rem);
+}
+.trf-ty7 {
+  -ms-transform: translateY(7rem);
+      transform: translateY(7rem);
+}
+.trf-ty8 {
+  -ms-transform: translateY(8rem);
+      transform: translateY(8rem);
+}
+.trf-ty-1 {
+  -ms-transform: translateY(-1rem);
+      transform: translateY(-1rem);
+}
+.trf-ty-2 {
+  -ms-transform: translateY(-2rem);
+      transform: translateY(-2rem);
+}
+.trf-ty-3 {
+  -ms-transform: translateY(-3rem);
+      transform: translateY(-3rem);
+}
+.trf-ty-4 {
+  -ms-transform: translateY(-4rem);
+      transform: translateY(-4rem);
+}
+.trf-ty-5 {
+  -ms-transform: translateY(-5rem);
+      transform: translateY(-5rem);
+}
+.trf-ty-6 {
+  -ms-transform: translateY(-6rem);
+      transform: translateY(-6rem);
+}
+.trf-ty-7 {
+  -ms-transform: translateY(-7rem);
+      transform: translateY(-7rem);
+}
+.trf-ty-8 {
+  -ms-transform: translateY(-8rem);
+      transform: translateY(-8rem);
+}
+/**
+ * Generates directional, relative unitary translate classes,
+ * like: `.trf-tx100p { transform: translateX(100%); }`.
+ */
+.trf-tx0p {
+  -ms-transform: translateX(0);
+      transform: translateX(0);
+}
+.trf-tx25p {
+  -ms-transform: translateX(25%);
+      transform: translateX(25%);
+}
+.trf-tx50p {
+  -ms-transform: translateX(50%);
+      transform: translateX(50%);
+}
+.trf-tx75p {
+  -ms-transform: translateX(75%);
+      transform: translateX(75%);
+}
+.trf-tx100p {
+  -ms-transform: translateX(100%);
+      transform: translateX(100%);
+}
+.trf-tx-25p {
+  -ms-transform: translateX(-25%);
+      transform: translateX(-25%);
+}
+.trf-tx-50p {
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+}
+.trf-tx-75p {
+  -ms-transform: translateX(-75%);
+      transform: translateX(-75%);
+}
+.trf-tx-100p {
+  -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
+}
+.trf-ty0p {
+  -ms-transform: translateY(0);
+      transform: translateY(0);
+}
+.trf-ty25p {
+  -ms-transform: translateY(25%);
+      transform: translateY(25%);
+}
+.trf-ty50p {
+  -ms-transform: translateY(50%);
+      transform: translateY(50%);
+}
+.trf-ty75p {
+  -ms-transform: translateY(75%);
+      transform: translateY(75%);
+}
+.trf-ty100p {
+  -ms-transform: translateY(100%);
+      transform: translateY(100%);
+}
+.trf-ty-25p {
+  -ms-transform: translateY(-25%);
+      transform: translateY(-25%);
+}
+.trf-ty-50p {
+  -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+.trf-ty-75p {
+  -ms-transform: translateY(-75%);
+      transform: translateY(-75%);
+}
+.trf-ty-100p {
+  -ms-transform: translateY(-100%);
+      transform: translateY(-100%);
+}

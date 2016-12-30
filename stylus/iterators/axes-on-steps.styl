@@ -1,0 +1,13 @@
+/**
+ * Iterates over axes and steps.
+ *
+ * @since 1.0.0
+ *
+ * @prop {Mixin} block - Anonymous mixin block.
+ */
+axes-on-steps(block)
+    for shorthand, axis in axes
+        steps(@(step) {
+            block(step, shorthand, axis)
+        })
+

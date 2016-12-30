@@ -1,0 +1,14 @@
+/**
+ * Normalizes passed property value.
+ *
+ * @since 1.0.0
+ *
+ * @param {Mixed} value - The property value.
+ * @param {String} unit - Value unit
+ * @return {String} - Normalized value.
+ */
+value(value, unit = 'rem')
+    if value == 0
+        return value
+
+    return unit(value, unit)

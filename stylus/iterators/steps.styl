@@ -1,0 +1,15 @@
+/**
+ * Iterates over positive and negative steps.
+ *
+ * @since 1.0.0
+ *
+ * @prop {Mixin} block - Anonymous mixin block.
+ * @prop {Boolean} negative - Iterate over negative steps?
+ */
+steps(block, negative = true)
+    for step in treads.positive
+        block(step)
+
+    if negative
+        for step in treads.negative
+            block(step)

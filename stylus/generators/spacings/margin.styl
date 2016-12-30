@@ -1,0 +1,25 @@
+@import '../../imports'
+
+/**
+ * Generates margin classes, like:
+ * `.m1 { margin: 1rem; }` without negative steps.
+ */
+iterate(@(i) {
+    rule(
+        selector('m' i),
+        property('margin'),
+        value(i)
+    )
+}, false)
+
+/**
+ * Generates directional margin classes,
+ * like: `.mt1 { margin-top: 1rem; }`.
+ */
+directions-on-iterators(@(i, shorthand, direction) {
+    rule(
+        selector('m' shorthand i),
+        property('margin' direction),
+        value(i)
+    )
+})

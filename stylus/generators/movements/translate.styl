@@ -1,0 +1,25 @@
+@import '../../imports'
+
+/**
+ * Generates directional, static unitary translate classes,
+ * like: `.trf-tx1 { transform: translateX(1rem); }`.
+ */
+axes-on-iterators(@(i, shorthand, axis) {
+    rule(
+        selector('trf-t' shorthand i),
+        property('transform'),
+        unquote(glue('translate' axis '(' value(i) ')'))
+    )
+})
+
+/**
+ * Generates directional, relative unitary translate classes,
+ * like: `.trf-tx100p { transform: translateX(100%); }`.
+ */
+axes-on-steps(@(step, shorthand, axis) {
+    rule(
+        selector('trf-t' shorthand step 'p'),
+        property('transform'),
+        unquote(glue('translate' axis '(' value(step, '%') ')'))
+    )
+})

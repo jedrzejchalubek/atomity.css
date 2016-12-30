@@ -1,0 +1,78 @@
+/**
+ * Defines iterators for generators.
+ *
+ * @since 1.0.0
+ *
+ * @prop {Number} positive - List of positive iterators.
+ * @prop {Number} negative - List of negative iterators.
+ *
+ * @type {Hash}
+ */
+iterators = {
+    positive: 0 ... 9,
+    negative: -1 ... -9
+}
+
+/**
+ * Defines steps for generators.
+ *
+ * @since 1.0.0
+ *
+ * @prop {Number} positive - List of positive steps.
+ * @prop {Number} negative - List of negative steps.
+ *
+ * @type {Hash}
+ */
+treads = {
+    positive: 0 25 50 75 100,
+    negative: -25 -50 -75 -100
+}
+
+/**
+ * Defines directions for movements/transforms.
+ *
+ * @since 1.0.0
+ *
+ * @prop {String} l - Property shorthand for `left` direction.
+ * @prop {String} t - Property shorthand for `top` direction.
+ * @prop {String} r - Property shorthand for `right` direction.
+ * @prop {String} b - Property shorthand for `bottom` direction.
+ *
+ * @type {Hash}
+ */
+directions = {
+    l: left,
+    t: top,
+    r: right,
+    b: bottom
+}
+
+/**
+ * Defines axes used for movements/transforms.
+ *
+ * @since 1.0.0
+ *
+ * @prop {String} x - Property shorthand for horizontal transforms.
+ * @prop {String} y - Property shorthand for vertical transforms.
+ *
+ * @type {Hash}
+ */
+axes = {
+    x: 'X',
+    y: 'Y'
+}
+
+/**
+ * Defines default parameters for selectors generation.
+ *
+ * @since 1.0.0
+ *
+ * @prop {String} suffix - String added before selector name.
+ * @prop {String} prefix - String added after selector name.
+ *
+ * @type {Hash}
+ */
+selectors = {
+    prefix: '',
+    suffix: ''
+}

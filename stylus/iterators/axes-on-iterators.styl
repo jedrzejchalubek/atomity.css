@@ -1,0 +1,13 @@
+/**
+ * Iterates over axes and iterators.
+ *
+ * @since 1.0.0
+ *
+ * @prop {Mixin} block - Anonymous mixin block.
+ */
+axes-on-iterators(block)
+    for shorthand, axis in axes
+        iterate(@(i) {
+            block(i, shorthand, axis)
+        })
+

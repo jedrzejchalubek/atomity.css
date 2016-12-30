@@ -1,0 +1,25 @@
+@import '../../imports'
+
+/**
+ * Generates padding classes, like:
+ * `.p1 { padding: 1rem; }`.
+ */
+iterate(@(i) {
+    rule(
+        selector('p' i),
+        property('padding'),
+        value(i)
+    )
+}, false)
+
+/**
+ * Generates directional padding classes,
+ * like: `.pt1 { padding-top: 1rem; }`.
+ */
+directions-on-iterators(@(i, shorthand, direction) {
+    rule(
+        selector('p' shorthand i),
+        property('padding' direction),
+        value(i)
+    )
+}, false)

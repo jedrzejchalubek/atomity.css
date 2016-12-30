@@ -1,0 +1,26 @@
+{
+  "name": "atomity.css",
+  "version": "1.0.0",
+  "description": "A small library of utility classes, that follows the Atomic CSS principles.",
+  "main": "atomity.css",
+  "style": "./atomity.css",
+  "author": "Jędrzej Chałubek <jedrzej.chalubek@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jedrzejchalubek/atomity.css.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "atomic",
+    "utilities",
+    "classes",
+    "helpers"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.6.0"
+  }
+}

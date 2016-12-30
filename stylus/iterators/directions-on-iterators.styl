@@ -1,0 +1,14 @@
+/**
+ * Iterates over directions and iterators.
+ *
+ * @since 1.0.0
+ *
+ * @prop {Mixin} block - Anonymous mixin block.
+ * @prop {Boolean} negative - Iterate over negative iterators?
+ */
+directions-on-iterators(block, negatives = true)
+    for shorthand, direction in directions
+        iterate(@(i) {
+            block(i, shorthand, direction)
+        }, negatives)
+

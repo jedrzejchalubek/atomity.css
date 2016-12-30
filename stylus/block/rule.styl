@@ -1,0 +1,12 @@
+/**
+ * Generates rule with declaration block and wrapped selector.
+ *
+ * @since 1.0.0
+ *
+ * @param {String} name - Selector name.
+ * @param {String} property - Property name.
+ * @param {Mixed} value - Property value.
+ */
+rule(name, property, value)
+    .{selector(selectors.prefix name selectors.suffix)}
+        {property} value
