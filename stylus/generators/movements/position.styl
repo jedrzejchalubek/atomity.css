@@ -1,0 +1,37 @@
+@import '../../imports'
+
+/**
+ * Generates position classes, like:
+ * `.posf { position: fixed; }`.
+ */
+iterator(positions, @(shorthand, position) {
+    rule(
+        selector('pos' shorthand),
+        property('position'),
+        unquote(position)
+    )
+})
+
+/**
+ * Generates position directional, static unitary classes,
+ * like: `.b1 { bottom: 1rem; }`.
+ */
+directions-on-iterators(@(i, shorthand, direction) {
+    rule(
+        selector(shorthand i),
+        property(direction),
+        value(i)
+    )
+})
+
+/**
+ * Generates position directional, static unitary classes,
+ * like: `.b100p { bottom: 100%; }`.
+ */
+directions-on-steps(@(step, shorthand, direction) {
+    rule(
+        selector(shorthand step 'p'),
+        property(direction),
+        value(step, '%')
+    )
+})

@@ -1,0 +1,324 @@
+/**
+ * Generates position classes, like:
+ * `.posf { position: fixed; }`.
+ */
+.posa {
+  position: absolute;
+}
+.posr {
+  position: relative;
+}
+.poss {
+  position: static;
+}
+.posf {
+  position: fixed;
+}
+/**
+ * Generates position directional, static unitary classes,
+ * like: `.b1 { bottom: 1rem; }`.
+ */
+.l0 {
+  left: 0;
+}
+.l1 {
+  left: 1rem;
+}
+.l2 {
+  left: 2rem;
+}
+.l3 {
+  left: 3rem;
+}
+.l4 {
+  left: 4rem;
+}
+.l5 {
+  left: 5rem;
+}
+.l6 {
+  left: 6rem;
+}
+.l7 {
+  left: 7rem;
+}
+.l8 {
+  left: 8rem;
+}
+.l-1 {
+  left: -1rem;
+}
+.l-2 {
+  left: -2rem;
+}
+.l-3 {
+  left: -3rem;
+}
+.l-4 {
+  left: -4rem;
+}
+.l-5 {
+  left: -5rem;
+}
+.l-6 {
+  left: -6rem;
+}
+.l-7 {
+  left: -7rem;
+}
+.l-8 {
+  left: -8rem;
+}
+.t0 {
+  top: 0;
+}
+.t1 {
+  top: 1rem;
+}
+.t2 {
+  top: 2rem;
+}
+.t3 {
+  top: 3rem;
+}
+.t4 {
+  top: 4rem;
+}
+.t5 {
+  top: 5rem;
+}
+.t6 {
+  top: 6rem;
+}
+.t7 {
+  top: 7rem;
+}
+.t8 {
+  top: 8rem;
+}
+.t-1 {
+  top: -1rem;
+}
+.t-2 {
+  top: -2rem;
+}
+.t-3 {
+  top: -3rem;
+}
+.t-4 {
+  top: -4rem;
+}
+.t-5 {
+  top: -5rem;
+}
+.t-6 {
+  top: -6rem;
+}
+.t-7 {
+  top: -7rem;
+}
+.t-8 {
+  top: -8rem;
+}
+.r0 {
+  right: 0;
+}
+.r1 {
+  right: 1rem;
+}
+.r2 {
+  right: 2rem;
+}
+.r3 {
+  right: 3rem;
+}
+.r4 {
+  right: 4rem;
+}
+.r5 {
+  right: 5rem;
+}
+.r6 {
+  right: 6rem;
+}
+.r7 {
+  right: 7rem;
+}
+.r8 {
+  right: 8rem;
+}
+.r-1 {
+  right: -1rem;
+}
+.r-2 {
+  right: -2rem;
+}
+.r-3 {
+  right: -3rem;
+}
+.r-4 {
+  right: -4rem;
+}
+.r-5 {
+  right: -5rem;
+}
+.r-6 {
+  right: -6rem;
+}
+.r-7 {
+  right: -7rem;
+}
+.r-8 {
+  right: -8rem;
+}
+.b0 {
+  bottom: 0;
+}
+.b1 {
+  bottom: 1rem;
+}
+.b2 {
+  bottom: 2rem;
+}
+.b3 {
+  bottom: 3rem;
+}
+.b4 {
+  bottom: 4rem;
+}
+.b5 {
+  bottom: 5rem;
+}
+.b6 {
+  bottom: 6rem;
+}
+.b7 {
+  bottom: 7rem;
+}
+.b8 {
+  bottom: 8rem;
+}
+.b-1 {
+  bottom: -1rem;
+}
+.b-2 {
+  bottom: -2rem;
+}
+.b-3 {
+  bottom: -3rem;
+}
+.b-4 {
+  bottom: -4rem;
+}
+.b-5 {
+  bottom: -5rem;
+}
+.b-6 {
+  bottom: -6rem;
+}
+.b-7 {
+  bottom: -7rem;
+}
+.b-8 {
+  bottom: -8rem;
+}
+/**
+ * Generates position directional, static unitary classes,
+ * like: `.b100p { bottom: 100%; }`.
+ */
+.l25p {
+  left: 25%;
+}
+.l50p {
+  left: 50%;
+}
+.l75p {
+  left: 75%;
+}
+.l100p {
+  left: 100%;
+}
+.l-25p {
+  left: -25%;
+}
+.l-50p {
+  left: -50%;
+}
+.l-75p {
+  left: -75%;
+}
+.l-100p {
+  left: -100%;
+}
+.t25p {
+  top: 25%;
+}
+.t50p {
+  top: 50%;
+}
+.t75p {
+  top: 75%;
+}
+.t100p {
+  top: 100%;
+}
+.t-25p {
+  top: -25%;
+}
+.t-50p {
+  top: -50%;
+}
+.t-75p {
+  top: -75%;
+}
+.t-100p {
+  top: -100%;
+}
+.r25p {
+  right: 25%;
+}
+.r50p {
+  right: 50%;
+}
+.r75p {
+  right: 75%;
+}
+.r100p {
+  right: 100%;
+}
+.r-25p {
+  right: -25%;
+}
+.r-50p {
+  right: -50%;
+}
+.r-75p {
+  right: -75%;
+}
+.r-100p {
+  right: -100%;
+}
+.b25p {
+  bottom: 25%;
+}
+.b50p {
+  bottom: 50%;
+}
+.b75p {
+  bottom: 75%;
+}
+.b100p {
+  bottom: 100%;
+}
+.b-25p {
+  bottom: -25%;
+}
+.b-50p {
+  bottom: -50%;
+}
+.b-75p {
+  bottom: -75%;
+}
+.b-100p {
+  bottom: -100%;
+}

@@ -1,0 +1,14 @@
+/**
+ * Iterates over directions and steps.
+ *
+ * @since 1.0.0
+ *
+ * @prop {Mixin} block - Anonymous mixin block.
+ * @prop {Boolean} negative - Iterate over negative steps?
+ */
+directions-on-steps(block, negatives = true)
+    for shorthand, direction in directions
+        steps(@(step) {
+            block(step, shorthand, direction)
+        }, negatives)
+

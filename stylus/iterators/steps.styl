@@ -7,9 +7,11 @@
  * @prop {Boolean} negative - Iterate over negative steps?
  */
 steps(block, negative = true)
-    for step in treads.positive
+    iterator(treads.positive, @(step) {
         block(step)
+    })
 
     if negative
-        for step in treads.negative
+        iterator(treads.negative, @(step) {
             block(step)
+        })

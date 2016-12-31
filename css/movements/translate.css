@@ -142,10 +142,6 @@
  * Generates directional, relative unitary translate classes,
  * like: `.trf-tx100p { transform: translateX(100%); }`.
  */
-.trf-tx0p {
-  -ms-transform: translateX(0);
-      transform: translateX(0);
-}
 .trf-tx25p {
   -ms-transform: translateX(25%);
       transform: translateX(25%);
@@ -177,10 +173,6 @@
 .trf-tx-100p {
   -ms-transform: translateX(-100%);
       transform: translateX(-100%);
-}
-.trf-ty0p {
-  -ms-transform: translateY(0);
-      transform: translateY(0);
 }
 .trf-ty25p {
   -ms-transform: translateY(25%);

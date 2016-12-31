@@ -1,4 +1,19 @@
 /**
+ * Defines default parameters for selectors generation.
+ *
+ * @since 1.0.0
+ *
+ * @prop {String} suffix - String added before selector name.
+ * @prop {String} prefix - String added after selector name.
+ *
+ * @type {Hash}
+ */
+selectors = {
+    prefix: '',
+    suffix: ''
+}
+
+/**
  * Defines iterators for generators.
  *
  * @since 1.0.0
@@ -24,8 +39,27 @@ iterators = {
  * @type {Hash}
  */
 treads = {
-    positive: 0 25 50 75 100,
+    positive: 25 50 75 100,
     negative: -25 -50 -75 -100
+}
+
+/**
+ * Defines positions for properties generation.
+ *
+ * @since 1.0.0
+ *
+ * @prop {String} a - The absolute position.
+ * @prop {String} r - The relative position.
+ * @prop {String} s - The static position.
+ * @prop {String} f - The fixed position.
+ *
+ * @type {Hash}
+ */
+positions = {
+    a: 'absolute',
+    r: 'relative',
+    s: 'static',
+    f: 'fixed'
 }
 
 /**
@@ -60,19 +94,4 @@ directions = {
 axes = {
     x: 'X',
     y: 'Y'
-}
-
-/**
- * Defines default parameters for selectors generation.
- *
- * @since 1.0.0
- *
- * @prop {String} suffix - String added before selector name.
- * @prop {String} prefix - String added after selector name.
- *
- * @type {Hash}
- */
-selectors = {
-    prefix: '',
-    suffix: ''
 }

@@ -7,9 +7,11 @@
  * @prop {Boolean} negative - Iterate over negative iterators?
  */
 iterate(block, negative = true)
-    for i in iterators.positive
+    iterator(iterators.positive, @(i) {
         block(i)
+    })
 
     if negative
-        for i in iterators.negative
+        iterator(iterators.negative, @(i) {
             block(i)
+        })

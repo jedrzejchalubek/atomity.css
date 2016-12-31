@@ -1,0 +1,11 @@
+/**
+ * Iterates over passed indexes.
+ *
+ * @since 1.0.0
+ *
+ * @prop {List} indexes - Indexes to iterate over.
+ * @prop {Mixin} block - Anonymous mixin block.
+ */
+iterator(indexes, block)
+    for index, key in indexes
+        block(index, key)
