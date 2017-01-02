@@ -1,0 +1,16 @@
+/**
+ * Generates width classes, like:
+ * `.w100p { width: 100%; }`.
+ */
+.w25p {
+  width: 25%;
+}
+.w50p {
+  width: 50%;
+}
+.w75p {
+  width: 75%;
+}
+.w100p {
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+@import '../../imports'
+
+/**
+ * Generates width classes, like:
+ * `.w100p { width: 100%; }`.
+ */
+ steps(@(step) {
+    rule(
+        selector('w' step 'p'),
+        property('width'),
+        value(step, '%')
+    )
+}, false)

@@ -1,0 +1,13 @@
+@import '../../imports'
+
+/**
+ * Generates height classes, like:
+ * `.h100p { height: 100%; }`.
+ */
+ steps(@(step) {
+    rule(
+        selector('h' step 'p'),
+        property('height'),
+        value(step, '%')
+    )
+}, false)

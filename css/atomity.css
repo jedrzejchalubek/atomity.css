@@ -1,3 +1,27 @@
+.w25p {
+  width: 25%;
+}
+.w50p {
+  width: 50%;
+}
+.w75p {
+  width: 75%;
+}
+.w100p {
+  width: 100%;
+}
+.h25p {
+  height: 25%;
+}
+.h50p {
+  height: 50%;
+}
+.h75p {
+  height: 75%;
+}
+.h100p {
+  height: 100%;
+}
 .m0 {
   margin: 0;
 }
