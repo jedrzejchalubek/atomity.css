@@ -1,0 +1,40 @@
+/**
+ * Generates scale <=100% transform classes, like:
+ * `.trf-sc75p { transform: scale(0.75) }`.
+ */
+.trf-sc25p {
+  -ms-transform: scale(0.25);
+      transform: scale(0.25);
+}
+.trf-sc50p {
+  -ms-transform: scale(0.5);
+      transform: scale(0.5);
+}
+.trf-sc75p {
+  -ms-transform: scale(0.75);
+      transform: scale(0.75);
+}
+.trf-sc100p {
+  -ms-transform: scale(1);
+      transform: scale(1);
+}
+/**
+ * Generates scale >100% transform classes, like:
+ * `.trf-sc125p { transform: scale(1.25) }`.
+ */
+.trf-sc125p {
+  -ms-transform: scale(1.25);
+      transform: scale(1.25);
+}
+.trf-sc150p {
+  -ms-transform: scale(1.5);
+      transform: scale(1.5);
+}
+.trf-sc175p {
+  -ms-transform: scale(1.75);
+      transform: scale(1.75);
+}
+.trf-sc200p {
+  -ms-transform: scale(2);
+      transform: scale(2);
+}

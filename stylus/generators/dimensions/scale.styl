@@ -1,0 +1,25 @@
+@import '../../imports'
+
+/**
+ * Generates scale <=100% transform classes, like:
+ * `.trf-sc75p { transform: scale(0.75) }`.
+ */
+ steps(@(step) {
+    rule(
+        selector('trf-sc' step 'p'),
+        property('transform'),
+        unquote(glue('scale(' value(step/100, null) ')'))
+    )
+}, false)
+
+/**
+ * Generates scale >100% transform classes, like:
+ * `.trf-sc125p { transform: scale(1.25) }`.
+ */
+ steps(@(step) {
+    rule(
+        selector('trf-sc' (step+100) 'p'),
+        property('transform'),
+        unquote(glue('scale(' value(1 + (step/100), null) ')'))
+    )
+}, false)

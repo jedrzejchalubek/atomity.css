@@ -8,7 +8,7 @@
  * @return {String} - Normalized value.
  */
 value(value, unit = 'rem')
-    if value == 0
+    if value == 0 || unit == null
         return value
 
     return unit(value, unit)
